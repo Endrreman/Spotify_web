@@ -1,17 +1,27 @@
+nav{
+  float: left;
+  margin-left: 1rem;
+}
+
+
+
 .resizable {
   position: relative;
 
-  /* Center the content */
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
   /* Misc */
-  border: 1px solid #cbd5e0;
-  height: 8rem;
+  height: 100vh;
   width: 8rem;
-  min-width: 2rem;
+  min-width: 20rem;
+
 }
+.resizable_item{
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgb(18,18,18);
+  border-radius: 20px;
+}
+
 .resizer {
   position: absolute;
 }
@@ -22,7 +32,8 @@
   height: 100%;
   right: 0;
   top: 0;
-  width: 5px;
+  width: 10px;
+  margin-right: -5px;
 }
 
 /* Placed at the bottom side */
@@ -32,10 +43,4 @@
   height: 5px;
   left: 0;
   width: 100%;
-}
-
-/* Optional styles */
-.container {
-  min-height: 32rem;
-  padding: 1rem;
 }

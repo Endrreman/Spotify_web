@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const mouseMoveHandler = function (e) {
       // How far the mouse has been moved
       const dx = e.clientX - x;
-      const dy = e.clientY - y;
+      //const dy = e.clientY - y;       there is no need for this
 
       // Adjust the dimension of element
       ele.style.width = (w + dx) + 'px';
