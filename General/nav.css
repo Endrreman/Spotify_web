@@ -1,6 +1,6 @@
 nav{
   float: left;
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 
@@ -16,7 +16,7 @@ nav{
 }
 .resizable_item{
   width: 100%;
-  margin: 1rem 0;
+  margin: .5rem 0;
   padding: 1rem;
   background: rgb(18,18,18);
   border-radius: 20px;
