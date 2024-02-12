@@ -1,0 +1,41 @@
+.resizable {
+  position: relative;
+
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Misc */
+  border: 1px solid #cbd5e0;
+  height: 8rem;
+  width: 8rem;
+  min-width: 2rem;
+}
+.resizer {
+  position: absolute;
+}
+
+/* Placed at the right side */
+.resizer-r {
+  cursor: col-resize;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 5px;
+}
+
+/* Placed at the bottom side */
+.resizer-b {
+  bottom: 0;
+  cursor: row-resize;
+  height: 5px;
+  left: 0;
+  width: 100%;
+}
+
+/* Optional styles */
+.container {
+  min-height: 32rem;
+  padding: 1rem;
+}
